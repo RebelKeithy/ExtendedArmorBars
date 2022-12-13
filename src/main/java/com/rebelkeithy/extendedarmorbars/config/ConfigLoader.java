@@ -7,7 +7,7 @@ import net.fabricmc.loader.api.FabricLoader;
 import java.io.*;
 
 public class ConfigLoader {
-    private static final String CONFIG_DIR = FabricLoader.getInstance().getConfigDir() + "\\";
+    private static final String CONFIG_DIR = FabricLoader.getInstance().getConfigDir() + "/";
 
     public Config loadConfigFile(String filename) {
         Config config;
